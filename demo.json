@@ -1,2121 +1,301 @@
 {
-  "profile": {
-    "srcTree": {
-      "raw": "# text = The International Committee of the Red Cross, which works in constantly evolving conflict situations, is open to the idea of coordination but is intent on protecting its independence.\n1\tThe\t_\tDET\t_\t_\t3\tdet\t_\t_\n2\tInternational\t_\tPROPN\t_\t_\t3\tcompound\t_\t_\n3\tCommittee\t_\tPROPN\t_\t_\t18\tnsubj\t_\t_\n4\tof\t_\tADP\t_\t_\t7\tcase\t_\t_\n5\tthe\t_\tDET\t_\t_\t7\tdet\t_\t_\n6\tRed\t_\tPROPN\t_\t_\t7\tcompound\t_\t_\n7\tCross\t_\tPROPN\t_\t_\t3\tnmod\t_\t_\n8\t,\t_\tPUNCT\t_\t_\t3\tpunct\t_\t_\n9\twhich\t_\tPRON\t_\t_\t10\tnsubj\t_\t_\n10\tworks\t_\tVERB\t_\t_\t3\tacl:relcl\t_\t_\n11\tin\t_\tADP\t_\t_\t15\tcase\t_\t_\n12\tconstantly\t_\tADV\t_\t_\t13\tadvmod\t_\t_\n13\tevolving\t_\tVERB\t_\t_\t15\tamod\t_\t_\n14\tconflict\t_\tNOUN\t_\t_\t15\tcompound\t_\t_\n15\tsituations\t_\tNOUN\t_\t_\t10\tobl\t_\t_\n16\t,\t_\tPUNCT\t_\t_\t18\tpunct\t_\t_\n17\tis\t_\tAUX\t_\t_\t18\tcop\t_\t_\n18\topen\t_\tADJ\t_\t_\t0\troot\t_\t_\n19\tto\t_\tADP\t_\t_\t21\tcase\t_\t_\n20\tthe\t_\tDET\t_\t_\t21\tdet\t_\t_\n21\tidea\t_\tNOUN\t_\t_\t18\tobl\t_\t_\n22\tof\t_\tADP\t_\t_\t23\tcase\t_\t_\n23\tcoordination\t_\tNOUN\t_\t_\t21\tnmod\t_\t_\n24\tbut\t_\tCCONJ\t_\t_\t26\tcc\t_\t_\n25\tis\t_\tAUX\t_\t_\t26\tcop\t_\t_\n26\tintent\t_\tNOUN\t_\t_\t18\tconj\t_\t_\n27\ton\t_\tSCONJ\t_\t_\t28\tmark\t_\t_\n28\tprotecting\t_\tVERB\t_\t_\t26\tacl\t_\t_\n29\tits\t_\tPRON\t_\t_\t30\tnmod:poss\t_\t_\n30\tindependence\t_\tNOUN\t_\t_\t28\tobj\t_\t_\n31\t.\t_\tPUNCT\t_\t_\t18\tpunct\t_\t_",
-      "text": "The International Committee of the Red Cross, which works in constantly evolving conflict situations, is open to the idea of coordination but is intent on protecting its independence.",
-      "nodes": {
-        "13": {
-          "idx": 13,
-          "form": "evolving",
-          "pos": "VERB",
-          "head": 15,
-          "dep": "amod"
-        },
-        "7": {
-          "idx": 7,
-          "form": "Cross",
-          "pos": "PROPN",
-          "head": 3,
-          "dep": "nmod"
-        },
-        "17": {
-          "idx": 17,
-          "form": "is",
-          "pos": "AUX",
-          "head": 18,
-          "dep": "cop"
-        },
-        "12": {
-          "idx": 12,
-          "form": "constantly",
-          "pos": "ADV",
-          "head": 13,
-          "dep": "advmod"
-        },
-        "6": {
-          "idx": 6,
-          "form": "Red",
-          "pos": "PROPN",
-          "head": 7,
-          "dep": "compound"
-        },
-        "16": {
-          "idx": 16,
-          "form": ",",
-          "pos": "PUNCT",
-          "head": 18,
-          "dep": "punct"
-        },
-        "15": {
-          "idx": 15,
-          "form": "situations",
-          "pos": "NOUN",
-          "head": 10,
-          "dep": "obl"
-        },
-        "25": {
-          "idx": 25,
-          "form": "is",
-          "pos": "AUX",
-          "head": 26,
-          "dep": "cop"
-        },
-        "19": {
-          "idx": 19,
-          "form": "to",
-          "pos": "ADP",
-          "head": 21,
-          "dep": "case"
-        },
-        "14": {
-          "idx": 14,
-          "form": "conflict",
-          "pos": "NOUN",
-          "head": 15,
-          "dep": "compound"
-        },
-        "24": {
-          "idx": 24,
-          "form": "but",
-          "pos": "CCONJ",
-          "head": 26,
-          "dep": "cc"
-        },
-        "18": {
-          "idx": 18,
-          "form": "open",
-          "pos": "ADJ",
-          "head": 0,
-          "dep": "root"
-        },
-        "1": {
-          "idx": 1,
-          "form": "The",
-          "pos": "DET",
-          "head": 3,
-          "dep": "det"
-        },
-        "27": {
-          "idx": 27,
-          "form": "on",
-          "pos": "SCONJ",
-          "head": 28,
-          "dep": "mark"
-        },
-        "21": {
-          "idx": 21,
-          "form": "idea",
-          "pos": "NOUN",
-          "head": 18,
-          "dep": "obl"
-        },
-        "26": {
-          "idx": 26,
-          "form": "intent",
-          "pos": "NOUN",
-          "head": 18,
-          "dep": "conj"
-        },
-        "20": {
-          "idx": 20,
-          "form": "the",
-          "pos": "DET",
-          "head": 21,
-          "dep": "det"
-        },
-        "9": {
-          "idx": 9,
-          "form": "which",
-          "pos": "PRON",
-          "head": 10,
-          "dep": "nsubj"
-        },
-        "3": {
-          "idx": 3,
-          "form": "Committee",
-          "pos": "PROPN",
-          "head": 18,
-          "dep": "nsubj"
-        },
-        "29": {
-          "idx": 29,
-          "form": "its",
-          "pos": "PRON",
-          "head": 30,
-          "dep": "nmod"
-        },
-        "23": {
-          "idx": 23,
-          "form": "coordination",
-          "pos": "NOUN",
-          "head": 21,
-          "dep": "nmod"
-        },
-        "8": {
-          "idx": 8,
-          "form": ",",
-          "pos": "PUNCT",
-          "head": 3,
-          "dep": "punct"
-        },
-        "2": {
-          "idx": 2,
-          "form": "International",
-          "pos": "PROPN",
-          "head": 3,
-          "dep": "compound"
-        },
-        "28": {
-          "idx": 28,
-          "form": "protecting",
-          "pos": "VERB",
-          "head": 26,
-          "dep": "acl"
-        },
-        "22": {
-          "idx": 22,
-          "form": "of",
-          "pos": "ADP",
-          "head": 23,
-          "dep": "case"
-        },
-        "11": {
-          "idx": 11,
-          "form": "in",
-          "pos": "ADP",
-          "head": 15,
-          "dep": "case"
-        },
-        "5": {
-          "idx": 5,
-          "form": "the",
-          "pos": "DET",
-          "head": 7,
-          "dep": "det"
-        },
-        "31": {
-          "idx": 31,
-          "form": ".",
-          "pos": "PUNCT",
-          "head": 18,
-          "dep": "punct"
-        },
-        "10": {
-          "idx": 10,
-          "form": "works",
-          "pos": "VERB",
-          "head": 3,
-          "dep": "acl"
-        },
-        "4": {
-          "idx": 4,
-          "form": "of",
-          "pos": "ADP",
-          "head": 7,
-          "dep": "case"
-        },
-        "30": {
-          "idx": 30,
-          "form": "independence",
-          "pos": "NOUN",
-          "head": 28,
-          "dep": "obj"
-        }
+  "data": {
+    "idx": 18,
+    "form": "open",
+    "pos": "ADJ",
+    "head": 0,
+    "dep": "root"
+  },
+  "children": [
+    {
+      "data": {
+        "idx": 3,
+        "form": "Committee",
+        "pos": "PROPN",
+        "head": 18,
+        "dep": "nsubj"
       },
-      "children": {
-        "3": {
-          "idxs": [
-            1,
-            2,
-            7,
-            8,
-            10
+      "children": [
+        {
+          "data": {
+            "idx": 1,
+            "form": "The",
+            "pos": "DET",
+            "head": 3,
+            "dep": "det"
+          }
+        },
+        {
+          "data": {
+            "idx": 2,
+            "form": "International",
+            "pos": "PROPN",
+            "head": 3,
+            "dep": "compound"
+          }
+        },
+        {
+          "data": {
+            "idx": 7,
+            "form": "Cross",
+            "pos": "PROPN",
+            "head": 3,
+            "dep": "nmod"
+          },
+          "children": [
+            {
+              "data": {
+                "idx": 4,
+                "form": "of",
+                "pos": "ADP",
+                "head": 7,
+                "dep": "case"
+              }
+            },
+            {
+              "data": {
+                "idx": 5,
+                "form": "the",
+                "pos": "DET",
+                "head": 7,
+                "dep": "det"
+              }
+            },
+            {
+              "data": {
+                "idx": 6,
+                "form": "Red",
+                "pos": "PROPN",
+                "head": 7,
+                "dep": "compound"
+              }
+            }
           ]
         },
-        "23": {
-          "idxs": [
-            22
-          ]
+        {
+          "data": {
+            "idx": 8,
+            "form": ",",
+            "pos": "PUNCT",
+            "head": 3,
+            "dep": "punct"
+          }
         },
-        "28": {
-          "idxs": [
-            27,
-            30
-          ]
-        },
-        "15": {
-          "idxs": [
-            11,
-            13,
-            14
-          ]
-        },
-        "18": {
-          "idxs": [
-            3,
-            16,
-            17,
-            21,
-            26,
-            31
-          ]
-        },
-        "21": {
-          "idxs": [
-            19,
-            20,
-            23
-          ]
-        },
-        "10": {
-          "idxs": [
-            9,
-            15
-          ]
-        },
-        "13": {
-          "idxs": [
-            12
-          ]
-        },
-        "0": {
-          "idxs": [
-            18
-          ]
-        },
-        "30": {
-          "idxs": [
-            29
-          ]
-        },
-        "7": {
-          "idxs": [
-            4,
-            5,
-            6
-          ]
-        },
-        "26": {
-          "idxs": [
-            24,
-            25,
-            28
+        {
+          "data": {
+            "idx": 10,
+            "form": "works",
+            "pos": "VERB",
+            "head": 3,
+            "dep": "acl"
+          },
+          "children": [
+            {
+              "data": {
+                "idx": 9,
+                "form": "which",
+                "pos": "PRON",
+                "head": 10,
+                "dep": "nsubj"
+              }
+            },
+            {
+              "data": {
+                "idx": 15,
+                "form": "situations",
+                "pos": "NOUN",
+                "head": 10,
+                "dep": "obl"
+              },
+              "children": [
+                {
+                  "data": {
+                    "idx": 11,
+                    "form": "in",
+                    "pos": "ADP",
+                    "head": 15,
+                    "dep": "case"
+                  }
+                },
+                {
+                  "data": {
+                    "idx": 13,
+                    "form": "evolving",
+                    "pos": "VERB",
+                    "head": 15,
+                    "dep": "amod"
+                  },
+                  "children": [
+                    {
+                      "data": {
+                        "idx": 12,
+                        "form": "constantly",
+                        "pos": "ADV",
+                        "head": 13,
+                        "dep": "advmod"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "data": {
+                    "idx": 14,
+                    "form": "conflict",
+                    "pos": "NOUN",
+                    "head": 15,
+                    "dep": "compound"
+                  }
+                }
+              ]
+            }
           ]
         }
+      ]
+    },
+    {
+      "data": {
+        "idx": 16,
+        "form": ",",
+        "pos": "PUNCT",
+        "head": 18,
+        "dep": "punct"
       }
     },
-    "tgtInfos": {
-      "prediction": {
-        "tree": {
-          "raw": "# text = \u7ea2\u5341\u5b57\u56fd\u9645\u59d4\u5458\u4f1a\u5728\u4e0d\u65ad\u6f14\u53d8\u7684\u51b2\u7a81\u5c40\u52bf\u4e2d\u5f00\u5c55\u5de5\u4f5c,\u5bf9\u534f\u8c03\u7684\u60f3\u6cd5\u6301\u5f00\u653e\u6001\u5ea6,\u4f46\u6253\u7b97\u4fdd\u62a4\u5176\u72ec\u7acb\u6027\u3002\n1\t\u7ea2\t_\tNOUN\t_\t_\t2\tnmod\t_\t_\n2\t\u5341\u5b57\t_\tNOUN\t_\t_\t3\tnmod\t_\t_\n3\t\u56fd\u9645\t_\tNOUN\t_\t_\t5\tnmod\t_\t_\n4\t\u59d4\u5458\t_\tNOUN\t_\t_\t25\tnsubj\t_\t_\n5\t\u4f1a\t_\tAUX\t_\t_\t25\taux\t_\t_\n6\t\u5728\t_\tADP\t_\t_\t11\tcase\t_\t_\n7\t\u4e0d\u65ad\t_\tADV\t_\t_\t8\tadvmod\t_\t_\n8\t\u6f14\u53d8\t_\tVERB\t_\t_\t11\tacl:relcl\t_\t_\n9\t\u7684\t_\tPART\t_\t_\t8\tmark:relcl\t_\t_\n10\t\u51b2\u7a81\t_\tNOUN\t_\t_\t11\tnmod\t_\t_\n11\t\u5c40\u52bf\t_\tNOUN\t_\t_\t13\tobl\t_\t_\n12\t\u4e2d\t_\tADP\t_\t_\t11\tacl\t_\t_\n13\t\u5f00\u5c55\t_\tVERB\t_\t_\t25\tacl\t_\t_\n14\t\u5de5\u4f5c\t_\tNOUN\t_\t_\t13\tobj\t_\t_\n15\t,\t_\tPUNCT\t_\t_\t25\tpunct\t_\t_\n16\t\u5bf9\t_\tADP\t_\t_\t19\tcase\t_\t_\n17\t\u534f\u8c03\t_\tVERB\t_\t_\t19\tacl:relcl\t_\t_\n18\t\u7684\t_\tPART\t_\t_\t17\tmark:relcl\t_\t_\n19\t\u60f3\u6cd5\t_\tNOUN\t_\t_\t20\tobl\t_\t_\n20\t\u6301\t_\tVERB\t_\t_\t25\tacl\t_\t_\n21\t\u5f00\u653e\t_\tNOUN\t_\t_\t22\tnmod\t_\t_\n22\t\u6001\u5ea6\t_\tNOUN\t_\t_\t20\tobj\t_\t_\n23\t,\t_\tPUNCT\t_\t_\t25\tpunct\t_\t_\n24\t\u4f46\t_\tADV\t_\t_\t25\tmark\t_\t_\n25\t\u6253\u7b97\t_\tVERB\t_\t_\t0\troot\t_\t_\n26\t\u4fdd\u62a4\t_\tVERB\t_\t_\t25\txcomp\t_\t_\n27\t\u5176\t_\tPRON\t_\t_\t29\tnmod\t_\t_\n28\t\u72ec\u7acb\t_\tADJ\t_\t_\t29\tcase:suff\t_\t_\n29\t\u6027\t_\tPART\t_\t_\t26\tobj\t_\t_\n30\t\u3002\t_\tPUNCT\t_\t_\t25\tpunct\t_\t_",
-          "text": "\u7ea2\u5341\u5b57\u56fd\u9645\u59d4\u5458\u4f1a\u5728\u4e0d\u65ad\u6f14\u53d8\u7684\u51b2\u7a81\u5c40\u52bf\u4e2d\u5f00\u5c55\u5de5\u4f5c,\u5bf9\u534f\u8c03\u7684\u60f3\u6cd5\u6301\u5f00\u653e\u6001\u5ea6,\u4f46\u6253\u7b97\u4fdd\u62a4\u5176\u72ec\u7acb\u6027\u3002",
-          "nodes": {
-            "13": {
-              "idx": 13,
-              "form": "\u5f00\u5c55",
-              "pos": "VERB",
-              "head": 25,
-              "dep": "acl"
-            },
-            "7": {
-              "idx": 7,
-              "form": "\u4e0d\u65ad",
-              "pos": "ADV",
-              "head": 8,
-              "dep": "advmod"
-            },
-            "17": {
-              "idx": 17,
-              "form": "\u534f\u8c03",
-              "pos": "VERB",
-              "head": 19,
-              "dep": "acl"
-            },
-            "12": {
-              "idx": 12,
-              "form": "\u4e2d",
-              "pos": "ADP",
-              "head": 11,
-              "dep": "acl"
-            },
-            "6": {
-              "idx": 6,
-              "form": "\u5728",
-              "pos": "ADP",
-              "head": 11,
-              "dep": "case"
-            },
-            "16": {
-              "idx": 16,
-              "form": "\u5bf9",
-              "pos": "ADP",
-              "head": 19,
-              "dep": "case"
-            },
-            "15": {
-              "idx": 15,
-              "form": ",",
-              "pos": "PUNCT",
-              "head": 25,
-              "dep": "punct"
-            },
-            "25": {
-              "idx": 25,
-              "form": "\u6253\u7b97",
-              "pos": "VERB",
-              "head": 0,
-              "dep": "root"
-            },
-            "19": {
-              "idx": 19,
-              "form": "\u60f3\u6cd5",
-              "pos": "NOUN",
-              "head": 20,
-              "dep": "obl"
-            },
-            "14": {
-              "idx": 14,
-              "form": "\u5de5\u4f5c",
-              "pos": "NOUN",
-              "head": 13,
-              "dep": "obj"
-            },
-            "24": {
-              "idx": 24,
-              "form": "\u4f46",
-              "pos": "ADV",
-              "head": 25,
-              "dep": "mark"
-            },
-            "18": {
-              "idx": 18,
-              "form": "\u7684",
-              "pos": "PART",
-              "head": 17,
-              "dep": "mark"
-            },
-            "1": {
-              "idx": 1,
-              "form": "\u7ea2",
-              "pos": "NOUN",
-              "head": 2,
-              "dep": "nmod"
-            },
-            "27": {
-              "idx": 27,
-              "form": "\u5176",
-              "pos": "PRON",
-              "head": 29,
-              "dep": "nmod"
-            },
-            "21": {
-              "idx": 21,
-              "form": "\u5f00\u653e",
-              "pos": "NOUN",
-              "head": 22,
-              "dep": "nmod"
-            },
-            "26": {
-              "idx": 26,
-              "form": "\u4fdd\u62a4",
-              "pos": "VERB",
-              "head": 25,
-              "dep": "xcomp"
-            },
-            "20": {
-              "idx": 20,
-              "form": "\u6301",
-              "pos": "VERB",
-              "head": 25,
-              "dep": "acl"
-            },
-            "9": {
-              "idx": 9,
-              "form": "\u7684",
-              "pos": "PART",
-              "head": 8,
-              "dep": "mark"
-            },
-            "3": {
-              "idx": 3,
-              "form": "\u56fd\u9645",
-              "pos": "NOUN",
-              "head": 5,
-              "dep": "nmod"
-            },
-            "29": {
-              "idx": 29,
-              "form": "\u6027",
-              "pos": "PART",
-              "head": 26,
-              "dep": "obj"
-            },
-            "23": {
-              "idx": 23,
-              "form": ",",
-              "pos": "PUNCT",
-              "head": 25,
-              "dep": "punct"
-            },
-            "8": {
-              "idx": 8,
-              "form": "\u6f14\u53d8",
-              "pos": "VERB",
-              "head": 11,
-              "dep": "acl"
-            },
-            "2": {
-              "idx": 2,
-              "form": "\u5341\u5b57",
-              "pos": "NOUN",
-              "head": 3,
-              "dep": "nmod"
-            },
-            "28": {
-              "idx": 28,
-              "form": "\u72ec\u7acb",
-              "pos": "ADJ",
-              "head": 29,
-              "dep": "case"
-            },
-            "22": {
-              "idx": 22,
-              "form": "\u6001\u5ea6",
-              "pos": "NOUN",
-              "head": 20,
-              "dep": "obj"
-            },
-            "11": {
-              "idx": 11,
-              "form": "\u5c40\u52bf",
-              "pos": "NOUN",
-              "head": 13,
-              "dep": "obl"
-            },
-            "5": {
-              "idx": 5,
-              "form": "\u4f1a",
-              "pos": "AUX",
-              "head": 25,
-              "dep": "aux"
-            },
-            "10": {
-              "idx": 10,
-              "form": "\u51b2\u7a81",
-              "pos": "NOUN",
-              "head": 11,
-              "dep": "nmod"
-            },
-            "4": {
-              "idx": 4,
-              "form": "\u59d4\u5458",
-              "pos": "NOUN",
-              "head": 25,
-              "dep": "nsubj"
-            },
-            "30": {
-              "idx": 30,
-              "form": "\u3002",
-              "pos": "PUNCT",
-              "head": 25,
-              "dep": "punct"
-            }
-          },
-          "children": {
-            "8": {
-              "idxs": [
-                7,
-                9
-              ]
-            },
-            "3": {
-              "idxs": [
-                2
-              ]
-            },
-            "25": {
-              "idxs": [
-                4,
-                5,
-                13,
-                15,
-                20,
-                23,
-                24,
-                26,
-                30
-              ]
-            },
-            "2": {
-              "idxs": [
-                1
-              ]
-            },
-            "5": {
-              "idxs": [
-                3
-              ]
-            },
-            "22": {
-              "idxs": [
-                21
-              ]
-            },
-            "19": {
-              "idxs": [
-                16,
-                17
-              ]
-            },
-            "11": {
-              "idxs": [
-                6,
-                8,
-                10,
-                12
-              ]
-            },
-            "13": {
-              "idxs": [
-                11,
-                14
-              ]
-            },
-            "0": {
-              "idxs": [
-                25
-              ]
-            },
-            "20": {
-              "idxs": [
-                19,
-                22
-              ]
-            },
-            "17": {
-              "idxs": [
-                18
-              ]
-            },
-            "26": {
-              "idxs": [
-                29
-              ]
-            },
-            "29": {
-              "idxs": [
-                27,
-                28
-              ]
-            }
+    {
+      "data": {
+        "idx": 17,
+        "form": "is",
+        "pos": "AUX",
+        "head": 18,
+        "dep": "cop"
+      }
+    },
+    {
+      "data": {
+        "idx": 21,
+        "form": "idea",
+        "pos": "NOUN",
+        "head": 18,
+        "dep": "obl"
+      },
+      "children": [
+        {
+          "data": {
+            "idx": 19,
+            "form": "to",
+            "pos": "ADP",
+            "head": 21,
+            "dep": "case"
           }
         },
-        "alignments": [
-          {
-            "srcIdx": 2,
-            "tgtIdx": 3
-          },
-          {
-            "srcIdx": 3,
-            "tgtIdx": 4
-          },
-          {
-            "srcIdx": 3,
-            "tgtIdx": 5
-          },
-          {
-            "srcIdx": 5,
-            "tgtIdx": 1
-          },
-          {
-            "srcIdx": 6,
-            "tgtIdx": 1
-          },
-          {
-            "srcIdx": 7,
-            "tgtIdx": 2
-          },
-          {
-            "srcIdx": 10,
-            "tgtIdx": 13
-          },
-          {
-            "srcIdx": 10,
-            "tgtIdx": 14
-          },
-          {
-            "srcIdx": 11,
-            "tgtIdx": 6
-          },
-          {
-            "srcIdx": 11,
-            "tgtIdx": 12
-          },
-          {
-            "srcIdx": 12,
-            "tgtIdx": 7
-          },
-          {
-            "srcIdx": 13,
-            "tgtIdx": 8
-          },
-          {
-            "srcIdx": 13,
-            "tgtIdx": 9
-          },
-          {
-            "srcIdx": 14,
-            "tgtIdx": 10
-          },
-          {
-            "srcIdx": 15,
-            "tgtIdx": 11
-          },
-          {
-            "srcIdx": 16,
-            "tgtIdx": 15
-          },
-          {
-            "srcIdx": 17,
-            "tgtIdx": 20
-          },
-          {
-            "srcIdx": 18,
-            "tgtIdx": 21
-          },
-          {
-            "srcIdx": 19,
-            "tgtIdx": 16
-          },
-          {
-            "srcIdx": 20,
-            "tgtIdx": 19
-          },
-          {
-            "srcIdx": 21,
-            "tgtIdx": 19
-          },
-          {
-            "srcIdx": 22,
-            "tgtIdx": 18
-          },
-          {
-            "srcIdx": 23,
-            "tgtIdx": 17
-          },
-          {
-            "srcIdx": 24,
-            "tgtIdx": 24
-          },
-          {
-            "srcIdx": 25,
-            "tgtIdx": 25
-          },
-          {
-            "srcIdx": 26,
-            "tgtIdx": 25
-          },
-          {
-            "srcIdx": 27,
-            "tgtIdx": 25
-          },
-          {
-            "srcIdx": 28,
-            "tgtIdx": 26
-          },
-          {
-            "srcIdx": 29,
-            "tgtIdx": 27
-          },
-          {
-            "srcIdx": 30,
-            "tgtIdx": 28
-          },
-          {
-            "srcIdx": 30,
-            "tgtIdx": 29
-          },
-          {
-            "srcIdx": 31,
-            "tgtIdx": 30
-          }
-        ]
-      },
-      "reference": {
-        "tree": {
-          "raw": "# text = \u5728\u4e0d\u65ad\u6f14\u53d8\u7684\u51b2\u7a81\u5c40\u52bf\u4e2d\u5de5\u4f5c\u7684\u7ea2\u5341\u5b57\u56fd\u9645\u59d4\u5458\u4f1a\u5bf9\u534f\u8c03\u7684\u89c2\u70b9\u662f\u63a5\u53d7\u7684,\u4f46\u6253\u7b97\u4fdd\u6301\u5176\u72ec\u7acb\u6027\u3002\n1\t\u5728\t_\tADP\t_\t_\t6\tcase\t_\t_\n2\t\u4e0d\u65ad\t_\tADV\t_\t_\t3\tadvmod\t_\t_\n3\t\u6f14\u53d8\t_\tVERB\t_\t_\t6\tacl:relcl\t_\t_\n4\t\u7684\t_\tPART\t_\t_\t3\tmark:relcl\t_\t_\n5\t\u51b2\u7a81\t_\tNOUN\t_\t_\t6\tnmod\t_\t_\n6\t\u5c40\u52bf\t_\tNOUN\t_\t_\t8\tobl\t_\t_\n7\t\u4e2d\t_\tADP\t_\t_\t6\tacl\t_\t_\n8\t\u5de5\u4f5c\t_\tVERB\t_\t_\t13\tacl:relcl\t_\t_\n9\t\u7684\t_\tPART\t_\t_\t8\tmark:relcl\t_\t_\n10\t\u7ea2\t_\tNOUN\t_\t_\t11\tnmod\t_\t_\n11\t\u5341\u5b57\t_\tNOUN\t_\t_\t12\tnmod\t_\t_\n12\t\u56fd\u9645\t_\tNOUN\t_\t_\t13\tnmod\t_\t_\n13\t\u59d4\u5458\t_\tNOUN\t_\t_\t24\tnsubj\t_\t_\n14\t\u4f1a\t_\tAUX\t_\t_\t19\taux\t_\t_\n15\t\u5bf9\t_\tADP\t_\t_\t18\tcase\t_\t_\n16\t\u534f\u8c03\t_\tVERB\t_\t_\t18\tacl:relcl\t_\t_\n17\t\u7684\t_\tPART\t_\t_\t16\tmark:relcl\t_\t_\n18\t\u89c2\u70b9\t_\tNOUN\t_\t_\t19\tobl\t_\t_\n19\t\u662f\t_\tVERB\t_\t_\t24\tacl\t_\t_\n20\t\u63a5\u53d7\t_\tVERB\t_\t_\t19\txcomp\t_\t_\n21\t\u7684\t_\tPART\t_\t_\t19\tdiscourse\t_\t_\n22\t,\t_\tPUNCT\t_\t_\t24\tpunct\t_\t_\n23\t\u4f46\t_\tADV\t_\t_\t24\tmark\t_\t_\n24\t\u6253\u7b97\t_\tVERB\t_\t_\t0\troot\t_\t_\n25\t\u4fdd\u6301\t_\tVERB\t_\t_\t24\txcomp\t_\t_\n26\t\u5176\t_\tPRON\t_\t_\t28\tnmod\t_\t_\n27\t\u72ec\u7acb\t_\tADJ\t_\t_\t28\tcase:suff\t_\t_\n28\t\u6027\t_\tPART\t_\t_\t25\tobj\t_\t_\n29\t\u3002\t_\tPUNCT\t_\t_\t24\tpunct\t_\t_",
-          "text": "\u5728\u4e0d\u65ad\u6f14\u53d8\u7684\u51b2\u7a81\u5c40\u52bf\u4e2d\u5de5\u4f5c\u7684\u7ea2\u5341\u5b57\u56fd\u9645\u59d4\u5458\u4f1a\u5bf9\u534f\u8c03\u7684\u89c2\u70b9\u662f\u63a5\u53d7\u7684,\u4f46\u6253\u7b97\u4fdd\u6301\u5176\u72ec\u7acb\u6027\u3002",
-          "nodes": {
-            "4": {
-              "idx": 4,
-              "form": "\u7684",
-              "pos": "PART",
-              "head": 3,
-              "dep": "mark"
-            },
-            "26": {
-              "idx": 26,
-              "form": "\u5176",
-              "pos": "PRON",
-              "head": 28,
-              "dep": "nmod"
-            },
-            "16": {
-              "idx": 16,
-              "form": "\u534f\u8c03",
-              "pos": "VERB",
-              "head": 18,
-              "dep": "acl"
-            },
-            "13": {
-              "idx": 13,
-              "form": "\u59d4\u5458",
-              "pos": "NOUN",
-              "head": 24,
-              "dep": "nsubj"
-            },
-            "3": {
-              "idx": 3,
-              "form": "\u6f14\u53d8",
-              "pos": "VERB",
-              "head": 6,
-              "dep": "acl"
-            },
-            "25": {
-              "idx": 25,
-              "form": "\u4fdd\u6301",
-              "pos": "VERB",
-              "head": 24,
-              "dep": "xcomp"
-            },
-            "12": {
-              "idx": 12,
-              "form": "\u56fd\u9645",
-              "pos": "NOUN",
-              "head": 13,
-              "dep": "nmod"
-            },
-            "2": {
-              "idx": 2,
-              "form": "\u4e0d\u65ad",
-              "pos": "ADV",
-              "head": 3,
-              "dep": "advmod"
-            },
-            "24": {
-              "idx": 24,
-              "form": "\u6253\u7b97",
-              "pos": "VERB",
-              "head": 0,
-              "dep": "root"
-            },
-            "11": {
-              "idx": 11,
-              "form": "\u5341\u5b57",
-              "pos": "NOUN",
-              "head": 12,
-              "dep": "nmod"
-            },
-            "1": {
-              "idx": 1,
-              "form": "\u5728",
-              "pos": "ADP",
-              "head": 6,
-              "dep": "case"
-            },
-            "23": {
-              "idx": 23,
-              "form": "\u4f46",
-              "pos": "ADV",
-              "head": 24,
-              "dep": "mark"
-            },
-            "10": {
-              "idx": 10,
-              "form": "\u7ea2",
-              "pos": "NOUN",
-              "head": 11,
-              "dep": "nmod"
-            },
-            "22": {
-              "idx": 22,
-              "form": ",",
-              "pos": "PUNCT",
-              "head": 24,
-              "dep": "punct"
-            },
-            "9": {
-              "idx": 9,
-              "form": "\u7684",
-              "pos": "PART",
-              "head": 8,
-              "dep": "mark"
-            },
-            "21": {
-              "idx": 21,
-              "form": "\u7684",
-              "pos": "PART",
-              "head": 19,
-              "dep": "discourse"
-            },
-            "8": {
-              "idx": 8,
-              "form": "\u5de5\u4f5c",
-              "pos": "VERB",
-              "head": 13,
-              "dep": "acl"
-            },
-            "20": {
-              "idx": 20,
-              "form": "\u63a5\u53d7",
-              "pos": "VERB",
-              "head": 19,
-              "dep": "xcomp"
-            },
-            "7": {
-              "idx": 7,
-              "form": "\u4e2d",
-              "pos": "ADP",
-              "head": 6,
-              "dep": "acl"
-            },
-            "29": {
-              "idx": 29,
-              "form": "\u3002",
-              "pos": "PUNCT",
-              "head": 24,
-              "dep": "punct"
-            },
-            "19": {
-              "idx": 19,
-              "form": "\u662f",
-              "pos": "VERB",
-              "head": 24,
-              "dep": "acl"
-            },
-            "6": {
-              "idx": 6,
-              "form": "\u5c40\u52bf",
-              "pos": "NOUN",
-              "head": 8,
-              "dep": "obl"
-            },
-            "28": {
-              "idx": 28,
-              "form": "\u6027",
-              "pos": "PART",
-              "head": 25,
-              "dep": "obj"
-            },
-            "18": {
-              "idx": 18,
-              "form": "\u89c2\u70b9",
-              "pos": "NOUN",
-              "head": 19,
-              "dep": "obl"
-            },
-            "15": {
-              "idx": 15,
-              "form": "\u5bf9",
-              "pos": "ADP",
-              "head": 18,
-              "dep": "case"
-            },
-            "5": {
-              "idx": 5,
-              "form": "\u51b2\u7a81",
-              "pos": "NOUN",
-              "head": 6,
-              "dep": "nmod"
-            },
-            "27": {
-              "idx": 27,
-              "form": "\u72ec\u7acb",
-              "pos": "ADJ",
-              "head": 28,
-              "dep": "case"
-            },
-            "17": {
-              "idx": 17,
-              "form": "\u7684",
-              "pos": "PART",
-              "head": 16,
-              "dep": "mark"
-            },
-            "14": {
-              "idx": 14,
-              "form": "\u4f1a",
-              "pos": "AUX",
-              "head": 19,
-              "dep": "aux"
-            }
-          },
-          "children": {
-            "25": {
-              "idxs": [
-                28
-              ]
-            },
-            "0": {
-              "idxs": [
-                24
-              ]
-            },
-            "24": {
-              "idxs": [
-                13,
-                19,
-                22,
-                23,
-                25,
-                29
-              ]
-            },
-            "19": {
-              "idxs": [
-                14,
-                18,
-                20,
-                21
-              ]
-            },
-            "28": {
-              "idxs": [
-                26,
-                27
-              ]
-            },
-            "18": {
-              "idxs": [
-                15,
-                16
-              ]
-            },
-            "13": {
-              "idxs": [
-                8,
-                12
-              ]
-            },
-            "8": {
-              "idxs": [
-                6,
-                9
-              ]
-            },
-            "3": {
-              "idxs": [
-                2,
-                4
-              ]
-            },
-            "12": {
-              "idxs": [
-                11
-              ]
-            },
-            "16": {
-              "idxs": [
-                17
-              ]
-            },
-            "11": {
-              "idxs": [
-                10
-              ]
-            },
-            "6": {
-              "idxs": [
-                1,
-                3,
-                5,
-                7
-              ]
-            }
+        {
+          "data": {
+            "idx": 20,
+            "form": "the",
+            "pos": "DET",
+            "head": 21,
+            "dep": "det"
           }
         },
-        "alignments": [
-          {
-            "srcIdx": 2,
-            "tgtIdx": 12
+        {
+          "data": {
+            "idx": 23,
+            "form": "coordination",
+            "pos": "NOUN",
+            "head": 21,
+            "dep": "nmod"
           },
-          {
-            "srcIdx": 3,
-            "tgtIdx": 13
-          },
-          {
-            "srcIdx": 3,
-            "tgtIdx": 14
-          },
-          {
-            "srcIdx": 5,
-            "tgtIdx": 10
-          },
-          {
-            "srcIdx": 6,
-            "tgtIdx": 10
-          },
-          {
-            "srcIdx": 7,
-            "tgtIdx": 11
-          },
-          {
-            "srcIdx": 10,
-            "tgtIdx": 8
-          },
-          {
-            "srcIdx": 11,
-            "tgtIdx": 1
-          },
-          {
-            "srcIdx": 12,
-            "tgtIdx": 2
-          },
-          {
-            "srcIdx": 13,
-            "tgtIdx": 3
-          },
-          {
-            "srcIdx": 13,
-            "tgtIdx": 4
-          },
-          {
-            "srcIdx": 14,
-            "tgtIdx": 5
-          },
-          {
-            "srcIdx": 15,
-            "tgtIdx": 6
-          },
-          {
-            "srcIdx": 17,
-            "tgtIdx": 19
-          },
-          {
-            "srcIdx": 18,
-            "tgtIdx": 20
-          },
-          {
-            "srcIdx": 18,
-            "tgtIdx": 21
-          },
-          {
-            "srcIdx": 19,
-            "tgtIdx": 15
-          },
-          {
-            "srcIdx": 21,
-            "tgtIdx": 18
-          },
-          {
-            "srcIdx": 22,
-            "tgtIdx": 17
-          },
-          {
-            "srcIdx": 23,
-            "tgtIdx": 16
-          },
-          {
-            "srcIdx": 24,
-            "tgtIdx": 23
-          },
-          {
-            "srcIdx": 26,
-            "tgtIdx": 24
-          },
-          {
-            "srcIdx": 27,
-            "tgtIdx": 24
-          },
-          {
-            "srcIdx": 28,
-            "tgtIdx": 25
-          },
-          {
-            "srcIdx": 29,
-            "tgtIdx": 26
-          },
-          {
-            "srcIdx": 30,
-            "tgtIdx": 27
-          },
-          {
-            "srcIdx": 30,
-            "tgtIdx": 28
-          },
-          {
-            "srcIdx": 31,
-            "tgtIdx": 29
-          }
-        ]
-      }
-    }
-  },
-  "translation_patterns": {
-    "patternsBySystem": {
-      "reference": {
-        "o2o": [
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "compound",
-              "childDep": "leaf",
-              "value": "compound~NOUN~leaf",
-              "name": "DPD@compound~NOUN~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~NOUN~leaf",
-              "name": "DPD@nmod~NOUN~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "compound~NOUN~leaf>nmod~NOUN~leaf",
-            "name": "DPD>DPD@compound~NOUN~leaf>nmod~NOUN~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "obl",
-              "childDep": "case+det+nmod",
-              "value": "obl~NOUN~case+det+nmod",
-              "name": "DPD@obl~NOUN~case+det+nmod"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "obl",
-              "childDep": "acl+case",
-              "value": "obl~NOUN~acl+case",
-              "name": "DPD@obl~NOUN~acl+case"
-            },
-            "codeName": "DPD>DPD",
-            "value": "obl~NOUN~case+det+nmod>obl~NOUN~acl+case",
-            "name": "DPD>DPD@obl~NOUN~case+det+nmod>obl~NOUN~acl+case"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PROPN",
-              "parentDep": "compound",
-              "childDep": "leaf",
-              "value": "compound~PROPN~leaf",
-              "name": "DPD@compound~PROPN~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "nmod",
-              "value": "nmod~NOUN~nmod",
-              "name": "DPD@nmod~NOUN~nmod"
-            },
-            "codeName": "DPD>DPD",
-            "value": "compound~PROPN~leaf>nmod~NOUN~nmod",
-            "name": "DPD>DPD@compound~PROPN~leaf>nmod~NOUN~nmod"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "case~ADP~leaf>case~ADP~leaf",
-            "name": "DPD>DPD@case~ADP~leaf>case~ADP~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PRON",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~PRON~leaf",
-              "name": "DPD@nmod~PRON~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PRON",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~PRON~leaf",
-              "name": "DPD@nmod~PRON~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "nmod~PRON~leaf>nmod~PRON~leaf",
-            "name": "DPD>DPD@nmod~PRON~leaf>nmod~PRON~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "case",
-              "value": "nmod~NOUN~case",
-              "name": "DPD@nmod~NOUN~case"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "mark",
-              "value": "acl~VERB~mark",
-              "name": "DPD@acl~VERB~mark"
-            },
-            "codeName": "DPD>DPD",
-            "value": "nmod~NOUN~case>acl~VERB~mark",
-            "name": "DPD>DPD@nmod~NOUN~case>acl~VERB~mark"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "nsubj+obl",
-              "value": "acl~VERB~nsubj+obl",
-              "name": "DPD@acl~VERB~nsubj+obl"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "mark+obl",
-              "value": "acl~VERB~mark+obl",
-              "name": "DPD@acl~VERB~mark+obl"
-            },
-            "codeName": "DPD>DPD",
-            "value": "acl~VERB~nsubj+obl>acl~VERB~mark+obl",
-            "name": "DPD>DPD@acl~VERB~nsubj+obl>acl~VERB~mark+obl"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "mark+obj",
-              "value": "acl~VERB~mark+obj",
-              "name": "DPD@acl~VERB~mark+obj"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "xcomp",
-              "childDep": "obj",
-              "value": "xcomp~VERB~obj",
-              "name": "DPD@xcomp~VERB~obj"
-            },
-            "codeName": "DPD>DPD",
-            "value": "acl~VERB~mark+obj>xcomp~VERB~obj",
-            "name": "DPD>DPD@acl~VERB~mark+obj>xcomp~VERB~obj"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PART",
-              "parentDep": "mark",
-              "childDep": "leaf",
-              "value": "mark~PART~leaf",
-              "name": "DPD@mark~PART~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "case~ADP~leaf>mark~PART~leaf",
-            "name": "DPD>DPD@case~ADP~leaf>mark~PART~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PUNCT",
-              "parentDep": "punct",
-              "childDep": "leaf",
-              "value": "punct~PUNCT~leaf",
-              "name": "DPD@punct~PUNCT~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PUNCT",
-              "parentDep": "punct",
-              "childDep": "leaf",
-              "value": "punct~PUNCT~leaf",
-              "name": "DPD@punct~PUNCT~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "punct~PUNCT~leaf>punct~PUNCT~leaf",
-            "name": "DPD>DPD@punct~PUNCT~leaf>punct~PUNCT~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "AUX",
-              "parentDep": "cop",
-              "childDep": "leaf",
-              "value": "cop~AUX~leaf",
-              "name": "DPD@cop~AUX~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "aux+discourse+obl+xcomp",
-              "value": "acl~VERB~aux+discourse+obl+xcomp",
-              "name": "DPD@acl~VERB~aux+discourse+obl+xcomp"
-            },
-            "codeName": "DPD>DPD",
-            "value": "cop~AUX~leaf>acl~VERB~aux+discourse+obl+xcomp",
-            "name": "DPD>DPD@cop~AUX~leaf>acl~VERB~aux+discourse+obl+xcomp"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PROPN",
-              "parentDep": "nmod",
-              "childDep": "case+compound+det",
-              "value": "nmod~PROPN~case+compound+det",
-              "name": "DPD@nmod~PROPN~case+compound+det"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "nmod",
-              "value": "nmod~NOUN~nmod",
-              "name": "DPD@nmod~NOUN~nmod"
-            },
-            "codeName": "DPD>DPD",
-            "value": "nmod~PROPN~case+compound+det>nmod~NOUN~nmod",
-            "name": "DPD>DPD@nmod~PROPN~case+compound+det>nmod~NOUN~nmod"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "case~ADP~leaf>case~ADP~leaf",
-            "name": "DPD>DPD@case~ADP~leaf>case~ADP~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADV",
-              "parentDep": "advmod",
-              "childDep": "leaf",
-              "value": "advmod~ADV~leaf",
-              "name": "DPD@advmod~ADV~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADV",
-              "parentDep": "advmod",
-              "childDep": "leaf",
-              "value": "advmod~ADV~leaf",
-              "name": "DPD@advmod~ADV~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "advmod~ADV~leaf>advmod~ADV~leaf",
-            "name": "DPD>DPD@advmod~ADV~leaf>advmod~ADV~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "CCONJ",
-              "parentDep": "cc",
-              "childDep": "leaf",
-              "value": "cc~CCONJ~leaf",
-              "name": "DPD@cc~CCONJ~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADV",
-              "parentDep": "mark",
-              "childDep": "leaf",
-              "value": "mark~ADV~leaf",
-              "name": "DPD@mark~ADV~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "cc~CCONJ~leaf>mark~ADV~leaf",
-            "name": "DPD>DPD@cc~CCONJ~leaf>mark~ADV~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "obl",
-              "childDep": "amod+case+compound",
-              "value": "obl~NOUN~amod+case+compound",
-              "name": "DPD@obl~NOUN~amod+case+compound"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "obl",
-              "childDep": "acl+acl+case+nmod",
-              "value": "obl~NOUN~acl+acl+case+nmod",
-              "name": "DPD@obl~NOUN~acl+acl+case+nmod"
-            },
-            "codeName": "DPD>DPD",
-            "value": "obl~NOUN~amod+case+compound>obl~NOUN~acl+acl+case+nmod",
-            "name": "DPD>DPD@obl~NOUN~amod+case+compound>obl~NOUN~acl+acl+case+nmod"
-          }
-        ],
-        "src2null": [
-          {
-            "code": "DPD",
-            "label": "PRON",
-            "parentDep": "nsubj",
-            "childDep": "leaf",
-            "value": "nsubj~PRON~leaf",
-            "name": "DPD@nsubj~PRON~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "PUNCT",
-            "parentDep": "punct",
-            "childDep": "leaf",
-            "value": "punct~PUNCT~leaf",
-            "name": "DPD@punct~PUNCT~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "DET",
-            "parentDep": "det",
-            "childDep": "leaf",
-            "value": "det~DET~leaf",
-            "name": "DPD@det~DET~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "ADP",
-            "parentDep": "case",
-            "childDep": "leaf",
-            "value": "case~ADP~leaf",
-            "name": "DPD@case~ADP~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "PUNCT",
-            "parentDep": "punct",
-            "childDep": "leaf",
-            "value": "punct~PUNCT~leaf",
-            "name": "DPD@punct~PUNCT~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "AUX",
-            "parentDep": "cop",
-            "childDep": "leaf",
-            "value": "cop~AUX~leaf",
-            "name": "DPD@cop~AUX~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "DET",
-            "parentDep": "det",
-            "childDep": "leaf",
-            "value": "det~DET~leaf",
-            "name": "DPD@det~DET~leaf"
-          }
-        ],
-        "null2tgt": [
-          {
-            "code": "DPD",
-            "label": "PUNCT",
-            "parentDep": "punct",
-            "childDep": "leaf",
-            "value": "punct~PUNCT~leaf",
-            "name": "DPD@punct~PUNCT~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "PART",
-            "parentDep": "mark",
-            "childDep": "leaf",
-            "value": "mark~PART~leaf",
-            "name": "DPD@mark~PART~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "ADP",
-            "parentDep": "acl",
-            "childDep": "leaf",
-            "value": "acl~ADP~leaf",
-            "name": "DPD@acl~ADP~leaf"
-          }
-        ],
-        "o2m": [
-          {
-            "code": "DPD",
-            "label": "PROPN",
-            "parentDep": "nsubj",
-            "childDep": "acl+compound+det+nmod+punct",
-            "value": "nsubj~PROPN~acl+compound+det+nmod+punct",
-            "name": "DPD@nsubj~PROPN~acl+compound+det+nmod+punct"
-          },
-          {
-            "code": "DPD",
-            "label": "NOUN",
-            "parentDep": "obj",
-            "childDep": "nmod",
-            "value": "obj~NOUN~nmod",
-            "name": "DPD@obj~NOUN~nmod"
-          },
-          {
-            "code": "DPD",
-            "label": "VERB",
-            "parentDep": "amod",
-            "childDep": "advmod",
-            "value": "amod~VERB~advmod",
-            "name": "DPD@amod~VERB~advmod"
-          },
-          {
-            "code": "DPD",
-            "label": "ADJ",
-            "parentDep": "root",
-            "childDep": "conj+cop+nsubj+obl+punct+punct",
-            "value": "root~ADJ~conj+cop+nsubj+obl+punct+punct",
-            "name": "DPD@root~ADJ~conj+cop+nsubj+obl+punct+punct"
-          }
-        ],
-        "m2o": [
-          {
-            "code": "DPD",
-            "label": "NOUN",
-            "parentDep": "conj",
-            "childDep": "acl+cc+cop",
-            "value": "conj~NOUN~acl+cc+cop",
-            "name": "DPD@conj~NOUN~acl+cc+cop"
-          },
-          {
-            "code": "DPD",
-            "label": "DET",
-            "parentDep": "det",
-            "childDep": "leaf",
-            "value": "det~DET~leaf",
-            "name": "DPD@det~DET~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "PROPN",
-            "parentDep": "compound",
-            "childDep": "leaf",
-            "value": "compound~PROPN~leaf",
-            "name": "DPD@compound~PROPN~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "SCONJ",
-            "parentDep": "mark",
-            "childDep": "leaf",
-            "value": "mark~SCONJ~leaf",
-            "name": "DPD@mark~SCONJ~leaf"
-          }
-        ]
+          "children": [
+            {
+              "data": {
+                "idx": 22,
+                "form": "of",
+                "pos": "ADP",
+                "head": 23,
+                "dep": "case"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "data": {
+        "idx": 26,
+        "form": "intent",
+        "pos": "NOUN",
+        "head": 18,
+        "dep": "conj"
       },
-      "prediction": {
-        "o2o": [
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "compound",
-              "childDep": "leaf",
-              "value": "compound~NOUN~leaf",
-              "name": "DPD@compound~NOUN~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~NOUN~leaf",
-              "name": "DPD@nmod~NOUN~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "compound~NOUN~leaf>nmod~NOUN~leaf",
-            "name": "DPD>DPD@compound~NOUN~leaf>nmod~NOUN~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PROPN",
-              "parentDep": "compound",
-              "childDep": "leaf",
-              "value": "compound~PROPN~leaf",
-              "name": "DPD@compound~PROPN~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "nmod",
-              "value": "nmod~NOUN~nmod",
-              "name": "DPD@nmod~NOUN~nmod"
-            },
-            "codeName": "DPD>DPD",
-            "value": "compound~PROPN~leaf>nmod~NOUN~nmod",
-            "name": "DPD>DPD@compound~PROPN~leaf>nmod~NOUN~nmod"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PRON",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~PRON~leaf",
-              "name": "DPD@nmod~PRON~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PRON",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~PRON~leaf",
-              "name": "DPD@nmod~PRON~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "nmod~PRON~leaf>nmod~PRON~leaf",
-            "name": "DPD>DPD@nmod~PRON~leaf>nmod~PRON~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "case",
-              "value": "nmod~NOUN~case",
-              "name": "DPD@nmod~NOUN~case"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "mark",
-              "value": "acl~VERB~mark",
-              "name": "DPD@acl~VERB~mark"
-            },
-            "codeName": "DPD>DPD",
-            "value": "nmod~NOUN~case>acl~VERB~mark",
-            "name": "DPD>DPD@nmod~NOUN~case>acl~VERB~mark"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "mark+obj",
-              "value": "acl~VERB~mark+obj",
-              "name": "DPD@acl~VERB~mark+obj"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "xcomp",
-              "childDep": "obj",
-              "value": "xcomp~VERB~obj",
-              "name": "DPD@xcomp~VERB~obj"
-            },
-            "codeName": "DPD>DPD",
-            "value": "acl~VERB~mark+obj>xcomp~VERB~obj",
-            "name": "DPD>DPD@acl~VERB~mark+obj>xcomp~VERB~obj"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PART",
-              "parentDep": "mark",
-              "childDep": "leaf",
-              "value": "mark~PART~leaf",
-              "name": "DPD@mark~PART~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "case~ADP~leaf>mark~PART~leaf",
-            "name": "DPD>DPD@case~ADP~leaf>mark~PART~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PUNCT",
-              "parentDep": "punct",
-              "childDep": "leaf",
-              "value": "punct~PUNCT~leaf",
-              "name": "DPD@punct~PUNCT~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PUNCT",
-              "parentDep": "punct",
-              "childDep": "leaf",
-              "value": "punct~PUNCT~leaf",
-              "name": "DPD@punct~PUNCT~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "punct~PUNCT~leaf>punct~PUNCT~leaf",
-            "name": "DPD>DPD@punct~PUNCT~leaf>punct~PUNCT~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "AUX",
-              "parentDep": "cop",
-              "childDep": "leaf",
-              "value": "cop~AUX~leaf",
-              "name": "DPD@cop~AUX~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "VERB",
-              "parentDep": "acl",
-              "childDep": "obj+obl",
-              "value": "acl~VERB~obj+obl",
-              "name": "DPD@acl~VERB~obj+obl"
-            },
-            "codeName": "DPD>DPD",
-            "value": "cop~AUX~leaf>acl~VERB~obj+obl",
-            "name": "DPD>DPD@cop~AUX~leaf>acl~VERB~obj+obl"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PUNCT",
-              "parentDep": "punct",
-              "childDep": "leaf",
-              "value": "punct~PUNCT~leaf",
-              "name": "DPD@punct~PUNCT~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "PUNCT",
-              "parentDep": "punct",
-              "childDep": "leaf",
-              "value": "punct~PUNCT~leaf",
-              "name": "DPD@punct~PUNCT~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "punct~PUNCT~leaf>punct~PUNCT~leaf",
-            "name": "DPD>DPD@punct~PUNCT~leaf>punct~PUNCT~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "PROPN",
-              "parentDep": "nmod",
-              "childDep": "case+compound+det",
-              "value": "nmod~PROPN~case+compound+det",
-              "name": "DPD@nmod~PROPN~case+compound+det"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "nmod",
-              "value": "nmod~NOUN~nmod",
-              "name": "DPD@nmod~NOUN~nmod"
-            },
-            "codeName": "DPD>DPD",
-            "value": "nmod~PROPN~case+compound+det>nmod~NOUN~nmod",
-            "name": "DPD>DPD@nmod~PROPN~case+compound+det>nmod~NOUN~nmod"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADP",
-              "parentDep": "case",
-              "childDep": "leaf",
-              "value": "case~ADP~leaf",
-              "name": "DPD@case~ADP~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "case~ADP~leaf>case~ADP~leaf",
-            "name": "DPD>DPD@case~ADP~leaf>case~ADP~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADV",
-              "parentDep": "advmod",
-              "childDep": "leaf",
-              "value": "advmod~ADV~leaf",
-              "name": "DPD@advmod~ADV~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADV",
-              "parentDep": "advmod",
-              "childDep": "leaf",
-              "value": "advmod~ADV~leaf",
-              "name": "DPD@advmod~ADV~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "advmod~ADV~leaf>advmod~ADV~leaf",
-            "name": "DPD>DPD@advmod~ADV~leaf>advmod~ADV~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "CCONJ",
-              "parentDep": "cc",
-              "childDep": "leaf",
-              "value": "cc~CCONJ~leaf",
-              "name": "DPD@cc~CCONJ~leaf"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "ADV",
-              "parentDep": "mark",
-              "childDep": "leaf",
-              "value": "mark~ADV~leaf",
-              "name": "DPD@mark~ADV~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "cc~CCONJ~leaf>mark~ADV~leaf",
-            "name": "DPD>DPD@cc~CCONJ~leaf>mark~ADV~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "ADJ",
-              "parentDep": "root",
-              "childDep": "conj+cop+nsubj+obl+punct+punct",
-              "value": "root~ADJ~conj+cop+nsubj+obl+punct+punct",
-              "name": "DPD@root~ADJ~conj+cop+nsubj+obl+punct+punct"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "nmod",
-              "childDep": "leaf",
-              "value": "nmod~NOUN~leaf",
-              "name": "DPD@nmod~NOUN~leaf"
-            },
-            "codeName": "DPD>DPD",
-            "value": "root~ADJ~conj+cop+nsubj+obl+punct+punct>nmod~NOUN~leaf",
-            "name": "DPD>DPD@root~ADJ~conj+cop+nsubj+obl+punct+punct>nmod~NOUN~leaf"
-          },
-          {
-            "srcCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "obl",
-              "childDep": "amod+case+compound",
-              "value": "obl~NOUN~amod+case+compound",
-              "name": "DPD@obl~NOUN~amod+case+compound"
-            },
-            "tgtCtx": {
-              "code": "DPD",
-              "label": "NOUN",
-              "parentDep": "obl",
-              "childDep": "acl+acl+case+nmod",
-              "value": "obl~NOUN~acl+acl+case+nmod",
-              "name": "DPD@obl~NOUN~acl+acl+case+nmod"
-            },
-            "codeName": "DPD>DPD",
-            "value": "obl~NOUN~amod+case+compound>obl~NOUN~acl+acl+case+nmod",
-            "name": "DPD>DPD@obl~NOUN~amod+case+compound>obl~NOUN~acl+acl+case+nmod"
+      "children": [
+        {
+          "data": {
+            "idx": 24,
+            "form": "but",
+            "pos": "CCONJ",
+            "head": 26,
+            "dep": "cc"
           }
-        ],
-        "src2null": [
-          {
-            "code": "DPD",
-            "label": "PRON",
-            "parentDep": "nsubj",
-            "childDep": "leaf",
-            "value": "nsubj~PRON~leaf",
-            "name": "DPD@nsubj~PRON~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "PUNCT",
-            "parentDep": "punct",
-            "childDep": "leaf",
-            "value": "punct~PUNCT~leaf",
-            "name": "DPD@punct~PUNCT~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "ADP",
-            "parentDep": "case",
-            "childDep": "leaf",
-            "value": "case~ADP~leaf",
-            "name": "DPD@case~ADP~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "DET",
-            "parentDep": "det",
-            "childDep": "leaf",
-            "value": "det~DET~leaf",
-            "name": "DPD@det~DET~leaf"
+        },
+        {
+          "data": {
+            "idx": 25,
+            "form": "is",
+            "pos": "AUX",
+            "head": 26,
+            "dep": "cop"
           }
-        ],
-        "null2tgt": [
-          {
-            "code": "DPD",
-            "label": "PUNCT",
-            "parentDep": "punct",
-            "childDep": "leaf",
-            "value": "punct~PUNCT~leaf",
-            "name": "DPD@punct~PUNCT~leaf"
+        },
+        {
+          "data": {
+            "idx": 28,
+            "form": "protecting",
+            "pos": "VERB",
+            "head": 26,
+            "dep": "acl"
           },
-          {
-            "code": "DPD",
-            "label": "NOUN",
-            "parentDep": "obj",
-            "childDep": "nmod",
-            "value": "obj~NOUN~nmod",
-            "name": "DPD@obj~NOUN~nmod"
-          }
-        ],
-        "o2m": [
-          {
-            "code": "DPD",
-            "label": "PROPN",
-            "parentDep": "nsubj",
-            "childDep": "acl+compound+det+nmod+punct",
-            "value": "nsubj~PROPN~acl+compound+det+nmod+punct",
-            "name": "DPD@nsubj~PROPN~acl+compound+det+nmod+punct"
-          },
-          {
-            "code": "DPD",
-            "label": "ADP",
-            "parentDep": "case",
-            "childDep": "leaf",
-            "value": "case~ADP~leaf",
-            "name": "DPD@case~ADP~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "VERB",
-            "parentDep": "acl",
-            "childDep": "nsubj+obl",
-            "value": "acl~VERB~nsubj+obl",
-            "name": "DPD@acl~VERB~nsubj+obl"
-          },
-          {
-            "code": "DPD",
-            "label": "NOUN",
-            "parentDep": "obj",
-            "childDep": "nmod",
-            "value": "obj~NOUN~nmod",
-            "name": "DPD@obj~NOUN~nmod"
-          },
-          {
-            "code": "DPD",
-            "label": "VERB",
-            "parentDep": "amod",
-            "childDep": "advmod",
-            "value": "amod~VERB~advmod",
-            "name": "DPD@amod~VERB~advmod"
-          }
-        ],
-        "m2o": [
-          {
-            "code": "DPD",
-            "label": "NOUN",
-            "parentDep": "conj",
-            "childDep": "acl+cc+cop",
-            "value": "conj~NOUN~acl+cc+cop",
-            "name": "DPD@conj~NOUN~acl+cc+cop"
-          },
-          {
-            "code": "DPD",
-            "label": "NOUN",
-            "parentDep": "obl",
-            "childDep": "case+det+nmod",
-            "value": "obl~NOUN~case+det+nmod",
-            "name": "DPD@obl~NOUN~case+det+nmod"
-          },
-          {
-            "code": "DPD",
-            "label": "DET",
-            "parentDep": "det",
-            "childDep": "leaf",
-            "value": "det~DET~leaf",
-            "name": "DPD@det~DET~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "DET",
-            "parentDep": "det",
-            "childDep": "leaf",
-            "value": "det~DET~leaf",
-            "name": "DPD@det~DET~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "AUX",
-            "parentDep": "cop",
-            "childDep": "leaf",
-            "value": "cop~AUX~leaf",
-            "name": "DPD@cop~AUX~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "PROPN",
-            "parentDep": "compound",
-            "childDep": "leaf",
-            "value": "compound~PROPN~leaf",
-            "name": "DPD@compound~PROPN~leaf"
-          },
-          {
-            "code": "DPD",
-            "label": "SCONJ",
-            "parentDep": "mark",
-            "childDep": "leaf",
-            "value": "mark~SCONJ~leaf",
-            "name": "DPD@mark~SCONJ~leaf"
-          }
-        ]
+          "children": [
+            {
+              "data": {
+                "idx": 27,
+                "form": "on",
+                "pos": "SCONJ",
+                "head": 28,
+                "dep": "mark"
+              }
+            },
+            {
+              "data": {
+                "idx": 30,
+                "form": "independence",
+                "pos": "NOUN",
+                "head": 28,
+                "dep": "obj"
+              },
+              "children": [
+                {
+                  "data": {
+                    "idx": 29,
+                    "form": "its",
+                    "pos": "PRON",
+                    "head": 30,
+                    "dep": "nmod"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "data": {
+        "idx": 31,
+        "form": ".",
+        "pos": "PUNCT",
+        "head": 18,
+        "dep": "punct"
       }
     }
-  }
+  ]
 }
