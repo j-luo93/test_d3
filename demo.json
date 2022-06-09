@@ -5,8 +5,7 @@
       "form": "open",
       "pos": "ADJ",
       "head": 0,
-      "dep": "root",
-      "aligned": 20
+      "dep": "root"
     },
     "children": [
       {
@@ -15,8 +14,7 @@
           "form": "Committee",
           "pos": "PROPN",
           "head": 18,
-          "dep": "nsubj",
-          "aligned": 13
+          "dep": "nsubj"
         },
         "children": [
           {
@@ -34,8 +32,7 @@
               "form": "International",
               "pos": "PROPN",
               "head": 3,
-              "dep": "compound",
-              "aligned": 12
+              "dep": "compound"
             }
           },
           {
@@ -44,8 +41,7 @@
               "form": "Cross",
               "pos": "PROPN",
               "head": 3,
-              "dep": "nmod",
-              "aligned": 11
+              "dep": "nmod"
             },
             "children": [
               {
@@ -72,8 +68,7 @@
                   "form": "Red",
                   "pos": "PROPN",
                   "head": 7,
-                  "dep": "compound",
-                  "aligned": 10
+                  "dep": "compound"
                 }
               }
             ]
@@ -93,8 +88,7 @@
               "form": "works",
               "pos": "VERB",
               "head": 3,
-              "dep": "acl",
-              "aligned": 8
+              "dep": "acl"
             },
             "children": [
               {
@@ -112,8 +106,7 @@
                   "form": "situations",
                   "pos": "NOUN",
                   "head": 10,
-                  "dep": "obl",
-                  "aligned": 6
+                  "dep": "obl"
                 },
                 "children": [
                   {
@@ -131,8 +124,7 @@
                       "form": "evolving",
                       "pos": "VERB",
                       "head": 15,
-                      "dep": "amod",
-                      "aligned": 3
+                      "dep": "amod"
                     },
                     "children": [
                       {
@@ -141,8 +133,7 @@
                           "form": "constantly",
                           "pos": "ADV",
                           "head": 13,
-                          "dep": "advmod",
-                          "aligned": 2
+                          "dep": "advmod"
                         }
                       }
                     ]
@@ -153,8 +144,7 @@
                       "form": "conflict",
                       "pos": "NOUN",
                       "head": 15,
-                      "dep": "compound",
-                      "aligned": 5
+                      "dep": "compound"
                     }
                   }
                 ]
@@ -187,8 +177,7 @@
           "form": "idea",
           "pos": "NOUN",
           "head": 18,
-          "dep": "obl",
-          "aligned": 18
+          "dep": "obl"
         },
         "children": [
           {
@@ -215,8 +204,7 @@
               "form": "coordination",
               "pos": "NOUN",
               "head": 21,
-              "dep": "nmod",
-              "aligned": 16
+              "dep": "nmod"
             },
             "children": [
               {
@@ -265,8 +253,7 @@
               "form": "protecting",
               "pos": "VERB",
               "head": 26,
-              "dep": "acl",
-              "aligned": 25
+              "dep": "acl"
             },
             "children": [
               {
@@ -284,8 +271,7 @@
                   "form": "independence",
                   "pos": "NOUN",
                   "head": 28,
-                  "dep": "obj",
-                  "aligned": 28
+                  "dep": "obj"
                 },
                 "children": [
                   {
@@ -294,8 +280,7 @@
                       "form": "its",
                       "pos": "PRON",
                       "head": 30,
-                      "dep": "nmod",
-                      "aligned": 26
+                      "dep": "nmod"
                     }
                   }
                 ]
@@ -330,8 +315,7 @@
           "form": "\u59d4\u5458",
           "pos": "NOUN",
           "head": 24,
-          "dep": "nsubj",
-          "aligned": 3
+          "dep": "nsubj"
         },
         "children": [
           {
@@ -340,8 +324,7 @@
               "form": "\u5de5\u4f5c",
               "pos": "VERB",
               "head": 13,
-              "dep": "acl",
-              "aligned": 10
+              "dep": "acl"
             },
             "children": [
               {
@@ -350,8 +333,7 @@
                   "form": "\u5c40\u52bf",
                   "pos": "NOUN",
                   "head": 8,
-                  "dep": "obl",
-                  "aligned": 15
+                  "dep": "obl"
                 },
                 "children": [
                   {
@@ -369,8 +351,7 @@
                       "form": "\u6f14\u53d8",
                       "pos": "VERB",
                       "head": 6,
-                      "dep": "acl",
-                      "aligned": 13
+                      "dep": "acl"
                     },
                     "children": [
                       {
@@ -379,8 +360,7 @@
                           "form": "\u4e0d\u65ad",
                           "pos": "ADV",
                           "head": 3,
-                          "dep": "advmod",
-                          "aligned": 12
+                          "dep": "advmod"
                         }
                       },
                       {
@@ -400,8 +380,7 @@
                       "form": "\u51b2\u7a81",
                       "pos": "NOUN",
                       "head": 6,
-                      "dep": "nmod",
-                      "aligned": 14
+                      "dep": "nmod"
                     }
                   },
                   {
@@ -432,8 +411,7 @@
               "form": "\u56fd\u9645",
               "pos": "NOUN",
               "head": 13,
-              "dep": "nmod",
-              "aligned": 2
+              "dep": "nmod"
             },
             "children": [
               {
@@ -442,8 +420,7 @@
                   "form": "\u5341\u5b57",
                   "pos": "NOUN",
                   "head": 12,
-                  "dep": "nmod",
-                  "aligned": 7
+                  "dep": "nmod"
                 },
                 "children": [
                   {
@@ -452,8 +429,7 @@
                       "form": "\u7ea2",
                       "pos": "NOUN",
                       "head": 11,
-                      "dep": "nmod",
-                      "aligned": 6
+                      "dep": "nmod"
                     }
                   }
                 ]
@@ -486,8 +462,7 @@
               "form": "\u89c2\u70b9",
               "pos": "NOUN",
               "head": 19,
-              "dep": "obl",
-              "aligned": 21
+              "dep": "obl"
             },
             "children": [
               {
@@ -505,8 +480,7 @@
                   "form": "\u534f\u8c03",
                   "pos": "VERB",
                   "head": 18,
-                  "dep": "acl",
-                  "aligned": 23
+                  "dep": "acl"
                 },
                 "children": [
                   {
@@ -528,8 +502,7 @@
               "form": "\u63a5\u53d7",
               "pos": "VERB",
               "head": 19,
-              "dep": "xcomp",
-              "aligned": 18
+              "dep": "xcomp"
             }
           },
           {
@@ -567,8 +540,7 @@
           "form": "\u4fdd\u6301",
           "pos": "VERB",
           "head": 24,
-          "dep": "xcomp",
-          "aligned": 28
+          "dep": "xcomp"
         },
         "children": [
           {
@@ -577,8 +549,7 @@
               "form": "\u6027",
               "pos": "PART",
               "head": 25,
-              "dep": "obj",
-              "aligned": 30
+              "dep": "obj"
             },
             "children": [
               {
@@ -587,8 +558,7 @@
                   "form": "\u5176",
                   "pos": "PRON",
                   "head": 28,
-                  "dep": "nmod",
-                  "aligned": 29
+                  "dep": "nmod"
                 }
               },
               {
@@ -614,5 +584,67 @@
         }
       }
     ]
-  }
+  },
+  "almt": [
+    {
+      "srcIdx": 14,
+      "tgtIdx": 5
+    },
+    {
+      "srcIdx": 3,
+      "tgtIdx": 13
+    },
+    {
+      "srcIdx": 21,
+      "tgtIdx": 18
+    },
+    {
+      "srcIdx": 2,
+      "tgtIdx": 12
+    },
+    {
+      "srcIdx": 29,
+      "tgtIdx": 26
+    },
+    {
+      "srcIdx": 23,
+      "tgtIdx": 16
+    },
+    {
+      "srcIdx": 10,
+      "tgtIdx": 8
+    },
+    {
+      "srcIdx": 28,
+      "tgtIdx": 25
+    },
+    {
+      "srcIdx": 30,
+      "tgtIdx": 28
+    },
+    {
+      "srcIdx": 13,
+      "tgtIdx": 3
+    },
+    {
+      "srcIdx": 7,
+      "tgtIdx": 11
+    },
+    {
+      "srcIdx": 12,
+      "tgtIdx": 2
+    },
+    {
+      "srcIdx": 6,
+      "tgtIdx": 10
+    },
+    {
+      "srcIdx": 18,
+      "tgtIdx": 20
+    },
+    {
+      "srcIdx": 15,
+      "tgtIdx": 6
+    }
+  ]
 }
