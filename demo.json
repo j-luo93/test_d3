@@ -587,64 +587,64 @@
   },
   "almt": [
     {
-      "src_idx": 14,
-      "tgt_idx": 5
+      "srcIdx": 14,
+      "tgtIdx": 5
     },
     {
-      "src_idx": 3,
-      "tgt_idx": 13
+      "srcIdx": 3,
+      "tgtIdx": 13
     },
     {
-      "src_idx": 21,
-      "tgt_idx": 18
+      "srcIdx": 21,
+      "tgtIdx": 18
     },
     {
-      "src_idx": 2,
-      "tgt_idx": 12
+      "srcIdx": 2,
+      "tgtIdx": 12
     },
     {
-      "src_idx": 29,
-      "tgt_idx": 26
+      "srcIdx": 29,
+      "tgtIdx": 26
     },
     {
-      "src_idx": 23,
-      "tgt_idx": 16
+      "srcIdx": 23,
+      "tgtIdx": 16
     },
     {
-      "src_idx": 10,
-      "tgt_idx": 8
+      "srcIdx": 10,
+      "tgtIdx": 8
     },
     {
-      "src_idx": 28,
-      "tgt_idx": 25
+      "srcIdx": 28,
+      "tgtIdx": 25
     },
     {
-      "src_idx": 30,
-      "tgt_idx": 28
+      "srcIdx": 30,
+      "tgtIdx": 28
     },
     {
-      "src_idx": 13,
-      "tgt_idx": 3
+      "srcIdx": 13,
+      "tgtIdx": 3
     },
     {
-      "src_idx": 7,
-      "tgt_idx": 11
+      "srcIdx": 7,
+      "tgtIdx": 11
     },
     {
-      "src_idx": 12,
-      "tgt_idx": 2
+      "srcIdx": 12,
+      "tgtIdx": 2
     },
     {
-      "src_idx": 6,
-      "tgt_idx": 10
+      "srcIdx": 6,
+      "tgtIdx": 10
     },
     {
-      "src_idx": 18,
-      "tgt_idx": 20
+      "srcIdx": 18,
+      "tgtIdx": 20
     },
     {
-      "src_idx": 15,
-      "tgt_idx": 6
+      "srcIdx": 15,
+      "tgtIdx": 6
     }
   ]
 }
