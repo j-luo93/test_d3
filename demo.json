@@ -1,5 +1,5 @@
 {
-  "data": {
+  "props": {
     "idx": 18,
     "form": "open",
     "pos": "ADJ",
@@ -8,7 +8,7 @@
   },
   "children": [
     {
-      "data": {
+      "props": {
         "idx": 3,
         "form": "Committee",
         "pos": "PROPN",
@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "data": {
+          "props": {
             "idx": 1,
             "form": "The",
             "pos": "DET",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 2,
             "form": "International",
             "pos": "PROPN",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 7,
             "form": "Cross",
             "pos": "PROPN",
@@ -44,7 +44,7 @@
           },
           "children": [
             {
-              "data": {
+              "props": {
                 "idx": 4,
                 "form": "of",
                 "pos": "ADP",
@@ -53,7 +53,7 @@
               }
             },
             {
-              "data": {
+              "props": {
                 "idx": 5,
                 "form": "the",
                 "pos": "DET",
@@ -62,7 +62,7 @@
               }
             },
             {
-              "data": {
+              "props": {
                 "idx": 6,
                 "form": "Red",
                 "pos": "PROPN",
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "data": {
+          "props": {
             "idx": 8,
             "form": ",",
             "pos": "PUNCT",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 10,
             "form": "works",
             "pos": "VERB",
@@ -91,7 +91,7 @@
           },
           "children": [
             {
-              "data": {
+              "props": {
                 "idx": 9,
                 "form": "which",
                 "pos": "PRON",
@@ -100,7 +100,7 @@
               }
             },
             {
-              "data": {
+              "props": {
                 "idx": 15,
                 "form": "situations",
                 "pos": "NOUN",
@@ -109,7 +109,7 @@
               },
               "children": [
                 {
-                  "data": {
+                  "props": {
                     "idx": 11,
                     "form": "in",
                     "pos": "ADP",
@@ -118,7 +118,7 @@
                   }
                 },
                 {
-                  "data": {
+                  "props": {
                     "idx": 13,
                     "form": "evolving",
                     "pos": "VERB",
@@ -127,7 +127,7 @@
                   },
                   "children": [
                     {
-                      "data": {
+                      "props": {
                         "idx": 12,
                         "form": "constantly",
                         "pos": "ADV",
@@ -138,7 +138,7 @@
                   ]
                 },
                 {
-                  "data": {
+                  "props": {
                     "idx": 14,
                     "form": "conflict",
                     "pos": "NOUN",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "data": {
+      "props": {
         "idx": 16,
         "form": ",",
         "pos": "PUNCT",
@@ -162,7 +162,7 @@
       }
     },
     {
-      "data": {
+      "props": {
         "idx": 17,
         "form": "is",
         "pos": "AUX",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "data": {
+      "props": {
         "idx": 21,
         "form": "idea",
         "pos": "NOUN",
@@ -180,7 +180,7 @@
       },
       "children": [
         {
-          "data": {
+          "props": {
             "idx": 19,
             "form": "to",
             "pos": "ADP",
@@ -189,7 +189,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 20,
             "form": "the",
             "pos": "DET",
@@ -198,7 +198,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 23,
             "form": "coordination",
             "pos": "NOUN",
@@ -207,7 +207,7 @@
           },
           "children": [
             {
-              "data": {
+              "props": {
                 "idx": 22,
                 "form": "of",
                 "pos": "ADP",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "data": {
+      "props": {
         "idx": 26,
         "form": "intent",
         "pos": "NOUN",
@@ -229,7 +229,7 @@
       },
       "children": [
         {
-          "data": {
+          "props": {
             "idx": 24,
             "form": "but",
             "pos": "CCONJ",
@@ -238,7 +238,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 25,
             "form": "is",
             "pos": "AUX",
@@ -247,7 +247,7 @@
           }
         },
         {
-          "data": {
+          "props": {
             "idx": 28,
             "form": "protecting",
             "pos": "VERB",
@@ -256,7 +256,7 @@
           },
           "children": [
             {
-              "data": {
+              "props": {
                 "idx": 27,
                 "form": "on",
                 "pos": "SCONJ",
@@ -265,7 +265,7 @@
               }
             },
             {
-              "data": {
+              "props": {
                 "idx": 30,
                 "form": "independence",
                 "pos": "NOUN",
@@ -274,7 +274,7 @@
               },
               "children": [
                 {
-                  "data": {
+                  "props": {
                     "idx": 29,
                     "form": "its",
                     "pos": "PRON",
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "data": {
+      "props": {
         "idx": 31,
         "form": ".",
         "pos": "PUNCT",
