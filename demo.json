@@ -6,7 +6,6 @@
     "head": 0,
     "dep": "root"
   },
-  "name": "open",
   "children": [
     {
       "data": {
@@ -16,7 +15,6 @@
         "head": 18,
         "dep": "nsubj"
       },
-      "name": "Committee",
       "children": [
         {
           "data": {
@@ -25,8 +23,7 @@
             "pos": "DET",
             "head": 3,
             "dep": "det"
-          },
-          "name": "The"
+          }
         },
         {
           "data": {
@@ -35,8 +32,7 @@
             "pos": "PROPN",
             "head": 3,
             "dep": "compound"
-          },
-          "name": "International"
+          }
         },
         {
           "data": {
@@ -46,7 +42,6 @@
             "head": 3,
             "dep": "nmod"
           },
-          "name": "Cross",
           "children": [
             {
               "data": {
@@ -55,8 +50,7 @@
                 "pos": "ADP",
                 "head": 7,
                 "dep": "case"
-              },
-              "name": "of"
+              }
             },
             {
               "data": {
@@ -65,8 +59,7 @@
                 "pos": "DET",
                 "head": 7,
                 "dep": "det"
-              },
-              "name": "the"
+              }
             },
             {
               "data": {
@@ -75,8 +68,7 @@
                 "pos": "PROPN",
                 "head": 7,
                 "dep": "compound"
-              },
-              "name": "Red"
+              }
             }
           ]
         },
@@ -87,8 +79,7 @@
             "pos": "PUNCT",
             "head": 3,
             "dep": "punct"
-          },
-          "name": ","
+          }
         },
         {
           "data": {
@@ -98,7 +89,6 @@
             "head": 3,
             "dep": "acl"
           },
-          "name": "works",
           "children": [
             {
               "data": {
@@ -107,8 +97,7 @@
                 "pos": "PRON",
                 "head": 10,
                 "dep": "nsubj"
-              },
-              "name": "which"
+              }
             },
             {
               "data": {
@@ -118,7 +107,6 @@
                 "head": 10,
                 "dep": "obl"
               },
-              "name": "situations",
               "children": [
                 {
                   "data": {
@@ -127,8 +115,7 @@
                     "pos": "ADP",
                     "head": 15,
                     "dep": "case"
-                  },
-                  "name": "in"
+                  }
                 },
                 {
                   "data": {
@@ -138,7 +125,6 @@
                     "head": 15,
                     "dep": "amod"
                   },
-                  "name": "evolving",
                   "children": [
                     {
                       "data": {
@@ -147,8 +133,7 @@
                         "pos": "ADV",
                         "head": 13,
                         "dep": "advmod"
-                      },
-                      "name": "constantly"
+                      }
                     }
                   ]
                 },
@@ -159,8 +144,7 @@
                     "pos": "NOUN",
                     "head": 15,
                     "dep": "compound"
-                  },
-                  "name": "conflict"
+                  }
                 }
               ]
             }
@@ -175,8 +159,7 @@
         "pos": "PUNCT",
         "head": 18,
         "dep": "punct"
-      },
-      "name": ","
+      }
     },
     {
       "data": {
@@ -185,8 +168,7 @@
         "pos": "AUX",
         "head": 18,
         "dep": "cop"
-      },
-      "name": "is"
+      }
     },
     {
       "data": {
@@ -196,7 +178,6 @@
         "head": 18,
         "dep": "obl"
       },
-      "name": "idea",
       "children": [
         {
           "data": {
@@ -205,8 +186,7 @@
             "pos": "ADP",
             "head": 21,
             "dep": "case"
-          },
-          "name": "to"
+          }
         },
         {
           "data": {
@@ -215,8 +195,7 @@
             "pos": "DET",
             "head": 21,
             "dep": "det"
-          },
-          "name": "the"
+          }
         },
         {
           "data": {
@@ -226,7 +205,6 @@
             "head": 21,
             "dep": "nmod"
           },
-          "name": "coordination",
           "children": [
             {
               "data": {
@@ -235,8 +213,7 @@
                 "pos": "ADP",
                 "head": 23,
                 "dep": "case"
-              },
-              "name": "of"
+              }
             }
           ]
         }
@@ -250,7 +227,6 @@
         "head": 18,
         "dep": "conj"
       },
-      "name": "intent",
       "children": [
         {
           "data": {
@@ -259,8 +235,7 @@
             "pos": "CCONJ",
             "head": 26,
             "dep": "cc"
-          },
-          "name": "but"
+          }
         },
         {
           "data": {
@@ -269,8 +244,7 @@
             "pos": "AUX",
             "head": 26,
             "dep": "cop"
-          },
-          "name": "is"
+          }
         },
         {
           "data": {
@@ -280,7 +254,6 @@
             "head": 26,
             "dep": "acl"
           },
-          "name": "protecting",
           "children": [
             {
               "data": {
@@ -289,8 +262,7 @@
                 "pos": "SCONJ",
                 "head": 28,
                 "dep": "mark"
-              },
-              "name": "on"
+              }
             },
             {
               "data": {
@@ -300,7 +272,6 @@
                 "head": 28,
                 "dep": "obj"
               },
-              "name": "independence",
               "children": [
                 {
                   "data": {
@@ -309,8 +280,7 @@
                     "pos": "PRON",
                     "head": 30,
                     "dep": "nmod"
-                  },
-                  "name": "its"
+                  }
                 }
               ]
             }
@@ -325,8 +295,7 @@
         "pos": "PUNCT",
         "head": 18,
         "dep": "punct"
-      },
-      "name": "."
+      }
     }
   ]
 }
