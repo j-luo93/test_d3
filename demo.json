@@ -1,301 +1,588 @@
 {
-  "props": {
-    "idx": 18,
-    "form": "open",
-    "pos": "ADJ",
-    "head": 0,
-    "dep": "root"
-  },
-  "children": [
-    {
-      "props": {
-        "idx": 3,
-        "form": "Committee",
-        "pos": "PROPN",
-        "head": 18,
-        "dep": "nsubj"
-      },
-      "children": [
-        {
-          "props": {
-            "idx": 1,
-            "form": "The",
-            "pos": "DET",
-            "head": 3,
-            "dep": "det"
-          }
+  "src": {
+    "props": {
+      "idx": 18,
+      "form": "open",
+      "pos": "ADJ",
+      "head": 0,
+      "dep": "root"
+    },
+    "children": [
+      {
+        "props": {
+          "idx": 3,
+          "form": "Committee",
+          "pos": "PROPN",
+          "head": 18,
+          "dep": "nsubj"
         },
-        {
-          "props": {
-            "idx": 2,
-            "form": "International",
-            "pos": "PROPN",
-            "head": 3,
-            "dep": "compound"
-          }
-        },
-        {
-          "props": {
-            "idx": 7,
-            "form": "Cross",
-            "pos": "PROPN",
-            "head": 3,
-            "dep": "nmod"
-          },
-          "children": [
-            {
-              "props": {
-                "idx": 4,
-                "form": "of",
-                "pos": "ADP",
-                "head": 7,
-                "dep": "case"
-              }
-            },
-            {
-              "props": {
-                "idx": 5,
-                "form": "the",
-                "pos": "DET",
-                "head": 7,
-                "dep": "det"
-              }
-            },
-            {
-              "props": {
-                "idx": 6,
-                "form": "Red",
-                "pos": "PROPN",
-                "head": 7,
-                "dep": "compound"
-              }
+        "children": [
+          {
+            "props": {
+              "idx": 1,
+              "form": "The",
+              "pos": "DET",
+              "head": 3,
+              "dep": "det"
             }
-          ]
-        },
-        {
-          "props": {
-            "idx": 8,
-            "form": ",",
-            "pos": "PUNCT",
-            "head": 3,
-            "dep": "punct"
-          }
-        },
-        {
-          "props": {
-            "idx": 10,
-            "form": "works",
-            "pos": "VERB",
-            "head": 3,
-            "dep": "acl"
           },
-          "children": [
-            {
-              "props": {
-                "idx": 9,
-                "form": "which",
-                "pos": "PRON",
-                "head": 10,
-                "dep": "nsubj"
-              }
+          {
+            "props": {
+              "idx": 2,
+              "form": "International",
+              "pos": "PROPN",
+              "head": 3,
+              "dep": "compound"
+            }
+          },
+          {
+            "props": {
+              "idx": 7,
+              "form": "Cross",
+              "pos": "PROPN",
+              "head": 3,
+              "dep": "nmod"
             },
-            {
-              "props": {
-                "idx": 15,
-                "form": "situations",
-                "pos": "NOUN",
-                "head": 10,
-                "dep": "obl"
+            "children": [
+              {
+                "props": {
+                  "idx": 4,
+                  "form": "of",
+                  "pos": "ADP",
+                  "head": 7,
+                  "dep": "case"
+                }
               },
-              "children": [
-                {
-                  "props": {
-                    "idx": 11,
-                    "form": "in",
-                    "pos": "ADP",
-                    "head": 15,
-                    "dep": "case"
-                  }
+              {
+                "props": {
+                  "idx": 5,
+                  "form": "the",
+                  "pos": "DET",
+                  "head": 7,
+                  "dep": "det"
+                }
+              },
+              {
+                "props": {
+                  "idx": 6,
+                  "form": "Red",
+                  "pos": "PROPN",
+                  "head": 7,
+                  "dep": "compound"
+                }
+              }
+            ]
+          },
+          {
+            "props": {
+              "idx": 8,
+              "form": ",",
+              "pos": "PUNCT",
+              "head": 3,
+              "dep": "punct"
+            }
+          },
+          {
+            "props": {
+              "idx": 10,
+              "form": "works",
+              "pos": "VERB",
+              "head": 3,
+              "dep": "acl"
+            },
+            "children": [
+              {
+                "props": {
+                  "idx": 9,
+                  "form": "which",
+                  "pos": "PRON",
+                  "head": 10,
+                  "dep": "nsubj"
+                }
+              },
+              {
+                "props": {
+                  "idx": 15,
+                  "form": "situations",
+                  "pos": "NOUN",
+                  "head": 10,
+                  "dep": "obl"
                 },
-                {
-                  "props": {
-                    "idx": 13,
-                    "form": "evolving",
-                    "pos": "VERB",
-                    "head": 15,
-                    "dep": "amod"
-                  },
-                  "children": [
-                    {
-                      "props": {
-                        "idx": 12,
-                        "form": "constantly",
-                        "pos": "ADV",
-                        "head": 13,
-                        "dep": "advmod"
-                      }
+                "children": [
+                  {
+                    "props": {
+                      "idx": 11,
+                      "form": "in",
+                      "pos": "ADP",
+                      "head": 15,
+                      "dep": "case"
                     }
-                  ]
-                },
-                {
-                  "props": {
-                    "idx": 14,
-                    "form": "conflict",
-                    "pos": "NOUN",
-                    "head": 15,
-                    "dep": "compound"
+                  },
+                  {
+                    "props": {
+                      "idx": 13,
+                      "form": "evolving",
+                      "pos": "VERB",
+                      "head": 15,
+                      "dep": "amod"
+                    },
+                    "children": [
+                      {
+                        "props": {
+                          "idx": 12,
+                          "form": "constantly",
+                          "pos": "ADV",
+                          "head": 13,
+                          "dep": "advmod"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "props": {
+                      "idx": 14,
+                      "form": "conflict",
+                      "pos": "NOUN",
+                      "head": 15,
+                      "dep": "compound"
+                    }
                   }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "props": {
-        "idx": 16,
-        "form": ",",
-        "pos": "PUNCT",
-        "head": 18,
-        "dep": "punct"
-      }
-    },
-    {
-      "props": {
-        "idx": 17,
-        "form": "is",
-        "pos": "AUX",
-        "head": 18,
-        "dep": "cop"
-      }
-    },
-    {
-      "props": {
-        "idx": 21,
-        "form": "idea",
-        "pos": "NOUN",
-        "head": 18,
-        "dep": "obl"
-      },
-      "children": [
-        {
-          "props": {
-            "idx": 19,
-            "form": "to",
-            "pos": "ADP",
-            "head": 21,
-            "dep": "case"
-          }
-        },
-        {
-          "props": {
-            "idx": 20,
-            "form": "the",
-            "pos": "DET",
-            "head": 21,
-            "dep": "det"
-          }
-        },
-        {
-          "props": {
-            "idx": 23,
-            "form": "coordination",
-            "pos": "NOUN",
-            "head": 21,
-            "dep": "nmod"
-          },
-          "children": [
-            {
-              "props": {
-                "idx": 22,
-                "form": "of",
-                "pos": "ADP",
-                "head": 23,
-                "dep": "case"
+                ]
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "props": {
-        "idx": 26,
-        "form": "intent",
-        "pos": "NOUN",
-        "head": 18,
-        "dep": "conj"
+            ]
+          }
+        ]
       },
-      "children": [
-        {
-          "props": {
-            "idx": 24,
-            "form": "but",
-            "pos": "CCONJ",
-            "head": 26,
-            "dep": "cc"
-          }
+      {
+        "props": {
+          "idx": 16,
+          "form": ",",
+          "pos": "PUNCT",
+          "head": 18,
+          "dep": "punct"
+        }
+      },
+      {
+        "props": {
+          "idx": 17,
+          "form": "is",
+          "pos": "AUX",
+          "head": 18,
+          "dep": "cop"
+        }
+      },
+      {
+        "props": {
+          "idx": 21,
+          "form": "idea",
+          "pos": "NOUN",
+          "head": 18,
+          "dep": "obl"
         },
-        {
-          "props": {
-            "idx": 25,
-            "form": "is",
-            "pos": "AUX",
-            "head": 26,
-            "dep": "cop"
-          }
-        },
-        {
-          "props": {
-            "idx": 28,
-            "form": "protecting",
-            "pos": "VERB",
-            "head": 26,
-            "dep": "acl"
+        "children": [
+          {
+            "props": {
+              "idx": 19,
+              "form": "to",
+              "pos": "ADP",
+              "head": 21,
+              "dep": "case"
+            }
           },
-          "children": [
-            {
-              "props": {
-                "idx": 27,
-                "form": "on",
-                "pos": "SCONJ",
-                "head": 28,
-                "dep": "mark"
-              }
+          {
+            "props": {
+              "idx": 20,
+              "form": "the",
+              "pos": "DET",
+              "head": 21,
+              "dep": "det"
+            }
+          },
+          {
+            "props": {
+              "idx": 23,
+              "form": "coordination",
+              "pos": "NOUN",
+              "head": 21,
+              "dep": "nmod"
             },
-            {
-              "props": {
-                "idx": 30,
-                "form": "independence",
-                "pos": "NOUN",
-                "head": 28,
-                "dep": "obj"
-              },
-              "children": [
-                {
-                  "props": {
-                    "idx": 29,
-                    "form": "its",
-                    "pos": "PRON",
-                    "head": 30,
-                    "dep": "nmod"
-                  }
+            "children": [
+              {
+                "props": {
+                  "idx": 22,
+                  "form": "of",
+                  "pos": "ADP",
+                  "head": 23,
+                  "dep": "case"
                 }
-              ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "props": {
+          "idx": 26,
+          "form": "intent",
+          "pos": "NOUN",
+          "head": 18,
+          "dep": "conj"
+        },
+        "children": [
+          {
+            "props": {
+              "idx": 24,
+              "form": "but",
+              "pos": "CCONJ",
+              "head": 26,
+              "dep": "cc"
             }
-          ]
+          },
+          {
+            "props": {
+              "idx": 25,
+              "form": "is",
+              "pos": "AUX",
+              "head": 26,
+              "dep": "cop"
+            }
+          },
+          {
+            "props": {
+              "idx": 28,
+              "form": "protecting",
+              "pos": "VERB",
+              "head": 26,
+              "dep": "acl"
+            },
+            "children": [
+              {
+                "props": {
+                  "idx": 27,
+                  "form": "on",
+                  "pos": "SCONJ",
+                  "head": 28,
+                  "dep": "mark"
+                }
+              },
+              {
+                "props": {
+                  "idx": 30,
+                  "form": "independence",
+                  "pos": "NOUN",
+                  "head": 28,
+                  "dep": "obj"
+                },
+                "children": [
+                  {
+                    "props": {
+                      "idx": 29,
+                      "form": "its",
+                      "pos": "PRON",
+                      "head": 30,
+                      "dep": "nmod"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "props": {
+          "idx": 31,
+          "form": ".",
+          "pos": "PUNCT",
+          "head": 18,
+          "dep": "punct"
         }
-      ]
-    },
-    {
-      "props": {
-        "idx": 31,
-        "form": ".",
-        "pos": "PUNCT",
-        "head": 18,
-        "dep": "punct"
       }
-    }
-  ]
+    ]
+  },
+  "tgt": {
+    "props": {
+      "idx": 24,
+      "form": "\u6253\u7b97",
+      "pos": "VERB",
+      "head": 0,
+      "dep": "root"
+    },
+    "children": [
+      {
+        "props": {
+          "idx": 13,
+          "form": "\u59d4\u5458",
+          "pos": "NOUN",
+          "head": 24,
+          "dep": "nsubj"
+        },
+        "children": [
+          {
+            "props": {
+              "idx": 8,
+              "form": "\u5de5\u4f5c",
+              "pos": "VERB",
+              "head": 13,
+              "dep": "acl"
+            },
+            "children": [
+              {
+                "props": {
+                  "idx": 6,
+                  "form": "\u5c40\u52bf",
+                  "pos": "NOUN",
+                  "head": 8,
+                  "dep": "obl"
+                },
+                "children": [
+                  {
+                    "props": {
+                      "idx": 1,
+                      "form": "\u5728",
+                      "pos": "ADP",
+                      "head": 6,
+                      "dep": "case"
+                    }
+                  },
+                  {
+                    "props": {
+                      "idx": 3,
+                      "form": "\u6f14\u53d8",
+                      "pos": "VERB",
+                      "head": 6,
+                      "dep": "acl"
+                    },
+                    "children": [
+                      {
+                        "props": {
+                          "idx": 2,
+                          "form": "\u4e0d\u65ad",
+                          "pos": "ADV",
+                          "head": 3,
+                          "dep": "advmod"
+                        }
+                      },
+                      {
+                        "props": {
+                          "idx": 4,
+                          "form": "\u7684",
+                          "pos": "PART",
+                          "head": 3,
+                          "dep": "mark"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "props": {
+                      "idx": 5,
+                      "form": "\u51b2\u7a81",
+                      "pos": "NOUN",
+                      "head": 6,
+                      "dep": "nmod"
+                    }
+                  },
+                  {
+                    "props": {
+                      "idx": 7,
+                      "form": "\u4e2d",
+                      "pos": "ADP",
+                      "head": 6,
+                      "dep": "acl"
+                    }
+                  }
+                ]
+              },
+              {
+                "props": {
+                  "idx": 9,
+                  "form": "\u7684",
+                  "pos": "PART",
+                  "head": 8,
+                  "dep": "mark"
+                }
+              }
+            ]
+          },
+          {
+            "props": {
+              "idx": 12,
+              "form": "\u56fd\u9645",
+              "pos": "NOUN",
+              "head": 13,
+              "dep": "nmod"
+            },
+            "children": [
+              {
+                "props": {
+                  "idx": 11,
+                  "form": "\u5341\u5b57",
+                  "pos": "NOUN",
+                  "head": 12,
+                  "dep": "nmod"
+                },
+                "children": [
+                  {
+                    "props": {
+                      "idx": 10,
+                      "form": "\u7ea2",
+                      "pos": "NOUN",
+                      "head": 11,
+                      "dep": "nmod"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "props": {
+          "idx": 19,
+          "form": "\u662f",
+          "pos": "VERB",
+          "head": 24,
+          "dep": "acl"
+        },
+        "children": [
+          {
+            "props": {
+              "idx": 14,
+              "form": "\u4f1a",
+              "pos": "AUX",
+              "head": 19,
+              "dep": "aux"
+            }
+          },
+          {
+            "props": {
+              "idx": 18,
+              "form": "\u89c2\u70b9",
+              "pos": "NOUN",
+              "head": 19,
+              "dep": "obl"
+            },
+            "children": [
+              {
+                "props": {
+                  "idx": 15,
+                  "form": "\u5bf9",
+                  "pos": "ADP",
+                  "head": 18,
+                  "dep": "case"
+                }
+              },
+              {
+                "props": {
+                  "idx": 16,
+                  "form": "\u534f\u8c03",
+                  "pos": "VERB",
+                  "head": 18,
+                  "dep": "acl"
+                },
+                "children": [
+                  {
+                    "props": {
+                      "idx": 17,
+                      "form": "\u7684",
+                      "pos": "PART",
+                      "head": 16,
+                      "dep": "mark"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "props": {
+              "idx": 20,
+              "form": "\u63a5\u53d7",
+              "pos": "VERB",
+              "head": 19,
+              "dep": "xcomp"
+            }
+          },
+          {
+            "props": {
+              "idx": 21,
+              "form": "\u7684",
+              "pos": "PART",
+              "head": 19,
+              "dep": "discourse"
+            }
+          }
+        ]
+      },
+      {
+        "props": {
+          "idx": 22,
+          "form": ",",
+          "pos": "PUNCT",
+          "head": 24,
+          "dep": "punct"
+        }
+      },
+      {
+        "props": {
+          "idx": 23,
+          "form": "\u4f46",
+          "pos": "ADV",
+          "head": 24,
+          "dep": "mark"
+        }
+      },
+      {
+        "props": {
+          "idx": 25,
+          "form": "\u4fdd\u6301",
+          "pos": "VERB",
+          "head": 24,
+          "dep": "xcomp"
+        },
+        "children": [
+          {
+            "props": {
+              "idx": 28,
+              "form": "\u6027",
+              "pos": "PART",
+              "head": 25,
+              "dep": "obj"
+            },
+            "children": [
+              {
+                "props": {
+                  "idx": 26,
+                  "form": "\u5176",
+                  "pos": "PRON",
+                  "head": 28,
+                  "dep": "nmod"
+                }
+              },
+              {
+                "props": {
+                  "idx": 27,
+                  "form": "\u72ec\u7acb",
+                  "pos": "ADJ",
+                  "head": 28,
+                  "dep": "case"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "props": {
+          "idx": 29,
+          "form": "\u3002",
+          "pos": "PUNCT",
+          "head": 24,
+          "dep": "punct"
+        }
+      }
+    ]
+  }
 }
